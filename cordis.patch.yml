@@ -1,0 +1,15 @@
+# dsh-private-model-routing — the Host guidance row.
+#
+# `tags` is this plugin's settings namespace: Settings → Models renders a tag
+# editor inside every provider card of the supported adapter families, and
+# writes land here through the profile's settings document. The field is
+# volatile, so a tag edit updates the running plugin without a remount.
+#
+# The child-model allowlist itself is NOT here: it stays owned by the Host
+# `subagentModelSelection` setting (Plugins → Subagent → Model selection).
+
+- insert:
+    - id: private-model-routing
+      name: '@local/dsh-private-model-routing'
+      config:
+        tags: []

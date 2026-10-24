@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Semantics",
+    "description": "Adds a semantics editor to every provider card in Settings → Models so you can tag models (low-cost, code-specialized, fast, multimodal) and have the agent route work by those tags."
+  }
+}
